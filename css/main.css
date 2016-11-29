@@ -64,16 +64,26 @@ ul {
 li a {
     display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 2px 2px;
     text-decoration: none;
     text-align: center;
     margin-top: 0%;
+    border-radius: 6px;
+  cursor: pointer;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 80px;
 }
 
 /* Change the link color on hover */
 li a:hover {
     background-color: #555;
     color: white;
+    border-radius: 50%;
 }
 li {
 	float: left;
