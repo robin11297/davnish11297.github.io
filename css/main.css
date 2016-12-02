@@ -116,3 +116,9 @@ li {
 	font-size: 13;
 	margin-bottom: 30;
 }
+.btn {
+	position: relative;
+	float: right;
+	top: 20px;
+	right: 6px;
+}
