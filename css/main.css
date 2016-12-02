@@ -123,3 +123,9 @@ li {
 	font-family: "Courier New", Courier, monospace;
 	margin-top: 50;
 }
+.btn {
+	position: relative;
+	float: right;
+	top: 20px;
+	right: 6px;
+}
